@@ -1,121 +1,52 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="شركة الكمال تك للتكييف والتبريد وصيانة الأجهزة المنزلية وفلاتر المياه في طنطا">
-  <title>شركة الكمال تك | للتكييف والتبريد والصيانة</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="#home">
-        <img src="logo.jpg" alt="شعار شركة الكمال تك">
-        <span>شركة الكمال تك</span>
-      </a>
-      <nav>
-        <a href="#home">الرئيسية</a>
-        <a href="#services">خدماتنا</a>
-        <a href="#about">عن الشركة</a>
-        <a href="#contact">تواصل معنا</a>
-      </nav>
-      <a class="call-btn" href="tel:01004433622">اتصل بنا</a>
-    </div>
-  </header>
+        <div class="service-request" style="margin:30px auto;padding:25px;max-width:700px;background:#f5f8fc;border-radius:18px;">
+          <h2>طلب خدمة</h2>
+          <p>املأ بياناتك وسيتم إرسال الطلب عبر واتساب.</p>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <span class="eyebrow">وكيل معتمد • خدمة وصيانة</span>
-          <h1>الكمال في <span>الخدمة</span><br>والجودة في كل صيانة</h1>
-          <p>شركة الكمال تك للتكييف والتبريد وصيانة الأجهزة المنزلية وفلاتر المياه في طنطا.</p>
-          <div class="hero-actions">
-            <a class="primary" href="tel:01004433622">اتصل الآن</a>
-            <a class="secondary" href="#services">اكتشف خدماتنا</a>
-          </div>
-          <div class="quick-info">
-            <div><strong>01004433622</strong><small>موبايل</small></div>
-            <div><strong>0403418204</strong><small>أرضي</small></div>
-            <div><strong>طنطا</strong><small>شارع الإسكندرية</small></div>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img src="logo.jpg" alt="شركة الكمال تك">
-          <div class="hero-card-caption">
-            <strong>خدمة وصيانة باحتراف</strong>
-            <span>تكييف • غسالات • شاشات • فلاتر مياه • تاجات</span>
-          </div>
-        </div>
-      </div>
-    </section>
+          <form id="serviceForm">
+            <input id="name" type="text" placeholder="الاسم" required style="display:block;width:100%;margin:10px 0;padding:12px;">
 
-    <section id="services" class="section">
-      <div class="container">
-        <div class="section-head">
-          <span>خدماتنا</span>
-          <h2>حلول صيانة لأجهزة منزلك</h2>
-          <p>نقدم خدمات الصيانة والإصلاح للأجهزة والخدمات الموجودة لدى عملائنا.</p>
-        </div>
-        <div class="services-grid">
-          <article class="service"><div class="icon">❄</div><h3>صيانة أجهزة التكييف</h3><p>صيانة وخدمة أجهزة التكييف والتبريد.</p></article>
-          <article class="service"><div class="icon">💧</div><h3>صيانة فلاتر المياه</h3><p>خدمة وصيانة فلاتر المياه ومتابعة أدائها.</p></article>
-          <article class="service"><div class="icon">◈</div><h3>صيانة الغسالات</h3><p>فحص وصيانة الغسالات وإصلاح الأعطال.</p></article>
-          <article class="service"><div class="icon">▣</div><h3>صيانة شاشات التلفزيون</h3><p>خدمة وصيانة شاشات التلفزيون.</p></article>
-          <article class="service"><div class="icon">⚙</div><h3>صيانة التاجات</h3><p>خدمات صيانة التاجات حسب احتياج العميل.</p></article>
-        </div>
-      </div>
-    </section>
+            <input id="phone" type="tel" placeholder="رقم الهاتف" required style="display:block;width:100%;margin:10px 0;padding:12px;">
 
-    <section id="about" class="about">
-      <div class="container about-grid">
-        <div>
-          <span class="section-label">شركة الكمال تك</span>
-          <h2>خبرة وخدمة قريبة منك في طنطا</h2>
-          <p>نحرص على تقديم خدمة صيانة واضحة واحترافية، مع الاهتمام بسرعة التواصل وجودة التنفيذ.</p>
-          <div class="values">
-            <div><b>01</b><span>سرعة التواصل</span></div>
-            <div><b>02</b><span>جودة الصيانة</span></div>
-            <div><b>03</b><span>خدمة موثوقة</span></div>
-          </div>
-        </div>
-        <div class="address-card">
-          <span>📍 موقعنا</span>
-          <h3>طنطا — شارع الإسكندرية</h3>
-          <p>بجوار مرور سالم عند الكوبري العلوي</p>
-          <a href="https://www.google.com/maps/search/?api=1&query=شارع+الإسكندرية+طنطا+مرور+سالم" target="_blank" rel="noopener">فتح الموقع على الخريطة</a>
-        </div>
-      </div>
-    </section>
+            <select id="service" required style="display:block;width:100%;margin:10px 0;padding:12px;">
+              <option value="">اختر الخدمة</option>
+              <option>صيانة أجهزة التكييف</option>
+              <option>صيانة فلاتر المياه</option>
+              <option>صيانة الغسالات</option>
+              <option>صيانة شاشات التلفزيون</option>
+              <option>صيانة التاجات</option>
+            </select>
 
-    <section class="cta">
-      <div class="container cta-inner">
-        <div><span>تحتاج صيانة؟</span><h2>تواصل مع شركة الكمال تك الآن</h2></div>
-        <a class="primary light" href="tel:01004433622">01004433622</a>
-      </div>
-    </section>
+            <input id="address" type="text" placeholder="العنوان" required style="display:block;width:100%;margin:10px 0;padding:12px;">
 
-    <section id="contact" class="section contact">
-      <div class="container">
-        <div class="section-head">
-          <span>تواصل معنا</span>
-          <h2>نحن جاهزون لخدمتك</h2>
-        </div>
-        <div class="contact-grid">
-          <a href="tel:01004433622"><strong>📱 الموبايل</strong><span>01004433622</span></a>
-          <a href="tel:0403418204"><strong>☎ الهاتف الأرضي</strong><span>0403418204</span></a>
-          <div><strong>📍 العنوان</strong><span>طنطا، شارع الإسكندرية، بجوار مرور سالم عند الكوبري العلوي</span></div>
-        </div>
-      </div>
-    </section>
-  </main>
+            <textarea id="details" placeholder="تفاصيل العطل أو الطلب" rows="4" style="display:block;width:100%;margin:10px 0;padding:12px;"></textarea>
 
-  <footer>
-    <div class="container footer-inner">
-      <div><strong>شركة الكمال تك</strong><span>للتكييف والتبريد والصيانة</span></div>
-      <p>© 2026 شركة الكمال تك — جميع الحقوق محفوظة</p>
-    </div>
-  </footer>
-</body>
-</html>
+            <button type="submit" style="padding:13px 25px;cursor:pointer;">
+              إرسال الطلب على واتساب
+            </button>
+          </form>
+        </div>
+
+        <script>
+        document.getElementById("serviceForm").addEventListener("submit", function(e) {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const phone = document.getElementById("phone").value;
+          const service = document.getElementById("service").value;
+          const address = document.getElementById("address").value;
+          const details = document.getElementById("details").value;
+
+          const message =
+            "طلب خدمة - شركة الكمال تك\n" +
+            "الاسم: " + name + "\n" +
+            "رقم الهاتف: " + phone + "\n" +
+            "الخدمة: " + service + "\n" +
+            "العنوان: " + address + "\n" +
+            "التفاصيل: " + (details || "لا يوجد");
+
+          window.open(
+            "https://wa.me/201283009002?text=" + encodeURIComponent(message),
+            "_blank"
+          );
+        });
+        </script>
